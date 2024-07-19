@@ -45,17 +45,6 @@ K-Means Clustering, an unsupervised learning algorithm, is used to segment custo
 
 Visualizations are created to analyze the distribution of customers within each segment and understand their characteristics.
 
-## Installation
-
-To run this project, you need to have Python installed along with the following libraries:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-
-git clone https://github.com/yourusername/CustomerSegmentation.git
-cd CustomerSegmentation
-jupyter notebook CustomerSegmentation.ipynb
-
 ## Conclusion
 
 This project demonstrates the use of K-Means clustering for customer segmentation in an online retail context. By identifying distinct customer segments based on RFM analysis, the company can tailor its marketing strategies to better meet the needs of different customer groups, ultimately improving customer satisfaction and increasing sales.
@@ -76,4 +65,16 @@ This project demonstrates the use of K-Means clustering for customer segmentatio
    - Spent the greatest amount of money.
    - Made many purchases.
    - Last purchase was a few days ago.
+
+
+## Installation
+
+To run this project, you need to have Python installed along with the following libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+git clone https://github.com/yourusername/CustomerSegmentation.git
+cd CustomerSegmentation
+jupyter notebook CustomerSegmentation.ipynb
 
