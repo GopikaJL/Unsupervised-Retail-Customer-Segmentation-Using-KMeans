@@ -1,4 +1,6 @@
 # Unsupervised-Retail-Customer-Segmentation-Using-KMeans
+# KMeans-Based Customer Segmentation for Online Retail
+
 ## Project Overview
 
 This project aims to segment customers of a UK-based non-store online retail company using unsupervised learning techniques. The company, which sells unique all-occasion gifts primarily to wholesalers, has provided a transactional dataset containing all transactions between 01/12/2010 and 09/12/2011. The objective is to categorize customers to devise targeted marketing strategies.
@@ -30,4 +32,29 @@ The project utilizes the following methodologies and techniques:
 
 ### RFM Analysis
 
-RFM (Recency, Frequency, Monetary) analysis is used to understand customer behavior
+RFM (Recency, Frequency, Monetary) analysis is used to understand customer behavior:
+- **Recency**: How recently a customer made a purchase.
+- **Frequency**: How often a customer makes a purchase.
+- **Monetary**: How much money a customer has spent.
+
+### K-Means Clustering
+
+K-Means Clustering, an unsupervised learning algorithm, is used to segment customers based on the RFM values:
+1. **Determining Optimal Number of Clusters**: The Elbow Method is used to identify the optimal number of clusters.
+2. **Clustering Customers**: Customers are grouped into clusters representing different segments (e.g., high-value, mid-value, low-value customers).
+
+### Data Visualization
+
+Visualizations are created to analyze the distribution of customers within each segment and understand their characteristics.
+
+## Installation
+
+To run this project, you need to have Python installed along with the following libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+git clone https://github.com/yourusername/CustomerSegmentation.git
+cd CustomerSegmentation
+jupyter notebook CustomerSegmentation.ipynb
+
