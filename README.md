@@ -1,6 +1,4 @@
 # Unsupervised-Retail-Customer-Segmentation-Using-KMeans
-# KMeans-Based Customer Segmentation for Online Retail
-
 ## Project Overview
 
 This project aims to segment customers of a UK-based non-store online retail company using unsupervised learning techniques. The company, which sells unique all-occasion gifts primarily to wholesalers, has provided a transactional dataset containing all transactions between 01/12/2010 and 09/12/2011. The objective is to categorize customers to devise targeted marketing strategies.
@@ -32,5 +30,4 @@ The project utilizes the following methodologies and techniques:
 
 ### RFM Analysis
 
-RFM (Recency, Frequency, Monetary) analysis is used to understand customer behavior:
-- **Recency**: How recently a customer made a purchase.
+RFM (Recency, Frequency, Monetary) analysis is used to understand customer behavior
